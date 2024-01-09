@@ -1,0 +1,35 @@
+video::-webkit-media-controls{
+    display:none !important
+}
+/* section{
+    text-align: center;
+} */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(../images/sunset-110305_640.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+video{
+    width: 50%;
+    margin:0 10px 0 10px ;
+}
+#videoContainer{
+    text-align: center;
+}
+.videSlider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: black;
+    font-weight: bold;
+}
+button{
+    border: none;
+}
